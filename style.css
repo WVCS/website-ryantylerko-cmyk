@@ -1,3 +1,42 @@
 body {
+	background-color: peru;
+	
+}
+h2 {
+	text-decoration: underline;
+	text-shadow: 2px 2px 5px purple; 
+	text-decoration-style: wavy;
+	color: #532178
+}
+img {
+	width:200px;
+}
 
+img:hover {
+	border: dotted 5px green;
+	width: 400px;
+	border-radius: 70%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
 }
